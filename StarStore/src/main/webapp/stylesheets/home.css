@@ -1,0 +1,49 @@
+.heading {
+  position: relative;
+  height: 800px; /* Adjust height as needed */
+  background-image: url('../resources/logo/background.jpg'); /* Insert your image path here */
+  background-size: cover;
+  background-position: center;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Text color */
+}
+
+.text-container h1 {
+  font-size: 5em; /* Adjust font size as needed */
+  margin-top: 60px;
+}
+
+.text-container h2 {
+  font-size: 3em; /* Adjust font size as needed */
+  margin-top: 500px; /* Adjust margin as needed */
+}
+
+.btns {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.btns button {
+  margin: 0 10px; /* Adjust margin as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #fff; /* Button background color */
+  color: #000; /* Button text color */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btns button:hover {
+  background-color: #ccc; /* Hover background color */
+}
+
+.heading-title {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}

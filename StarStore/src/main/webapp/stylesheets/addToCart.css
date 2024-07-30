@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th{
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(228, 226, 226, 0.738);
+    
+}
+td{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+
+
+
+
+/* Set a fixed width for the Name column */
+
+
+
+th.image-column {
+    width: 50px;
+    text-align: left;
+}
+
+th.name-column {
+    width: 600px;
+}
+
+th.price-column {
+    width: 100px;
+    text-align: left;
+}
+
+th.quantity-column {
+    width: 150px;
+    text-align: left;
+}
+
+th.total-column {
+    width: 150px;
+    text-align: left;
+}
+
+th.delete-column {
+    width: 20px;
+}
+
+
+
+td img {
+    width: 120px;
+    height: 100px;
+    vertical-align: middle; /* Align the image vertically in the cell */
+    margin-right: 1px; /* Add some spacing between the image and text */
+}
+
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.quantity-btn {
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+
+.delete-btn img{
+    height: 30px;
+    width: 30px;
+}
+
+.checkout-btn {
+    padding: 13px 30px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.border-white{
+    border: 1px solid white;
+    padding-top: 50px;
+}
+

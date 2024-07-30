@@ -1,0 +1,72 @@
+/* Add your CSS styles for the Order List table */
+@charset "ISO-8859-1";
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+	font-family:sans-serif;
+	font-size-adjust:inherit;
+	font-size:x-large;
+    
+    padding: 8px;
+    text-align: left;
+    background-color:#D3D3D3;
+}
+
+td {
+	font-family:sans-serif;
+	font-size-adjust:inherit;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-details {
+    grid-area: info;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+
+.product-image {
+    
+    align-items: left;
+    height: 100px;
+    width: 100px;
+    
+    
+}
+.order-table img {
+    width: 100px;
+}
+
+.product-quantity {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.562);
+    
+    
+}
+.product-quantity a{
+    color: rgb(182, 180, 180);
+}
+
+.product-name {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.product-image img {
+    width: 90px;
+    height: 90px;
+    
+}
+
+th.product-column {
+    width: 220px;
+}

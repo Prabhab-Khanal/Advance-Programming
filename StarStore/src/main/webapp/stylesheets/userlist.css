@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th{
+    padding: 8px;
+    text-align: left;
+    background-color:#d3d3d3;
+    
+}
+td{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+
+
+
+/* Set a fixed width for the Name column */
+th.sn-column {
+    width: 30px;
+}
+
+th.username-column {
+    width: 150px;
+}
+
+th.firstname-column {
+    width: 150px;
+}
+th.middlename-column {
+    width: 150px;
+}
+th.lastname-column {
+    width: 150px;
+}
+
+th.email-column {
+    width: 250px;
+}
+
+th.phone-column {
+    width: 150px;
+}
+
+th.birthdate-column {
+    width: 120px;
+}
+
+th.gender-column {
+    width: 100px;
+}
+
+th.address-column {
+    width: 400px;
+}
+
+
+
+

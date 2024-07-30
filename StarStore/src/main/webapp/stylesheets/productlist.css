@@ -1,0 +1,76 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color:#d3d3d3;
+    
+}
+td{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+td button {
+    vertical-align: middle; /* Align buttons vertically in the cell */
+    margin-right: 10px; /* Add some spacing between buttons */
+    margin-left: 10px;
+
+    
+}
+td button img{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+}
+
+
+
+
+/* Set a fixed width for the Name column */
+
+th.id-column {
+    width: 30px;
+}
+
+th.image-column {
+    width: 100px;
+}
+
+th.name-column {
+    width: 250px;
+}
+
+th.desc-column {
+    width: 70   0px;
+}
+
+th.price-column {
+    width: 90px;
+    text-align: left;
+}
+
+th.quantity-column {
+    width: 80px;
+    text-align: left;
+}
+
+th.action-column {
+    width: 150px;
+}
+
+td img {
+    width: 120px;
+    height: 100px;
+    vertical-align: middle; /* Align the image vertically in the cell */
+    margin-right: 1px; /* Add some spacing between the image and text */
+}
+
+

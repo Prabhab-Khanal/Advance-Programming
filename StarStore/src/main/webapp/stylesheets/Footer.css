@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-section {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-copyright {
+  color: rgb(167, 167, 167);
+}
+
+.footer-section h1 {
+  font-size: 50px;
+}
+
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons a img {
+  height: 50px;
+  width: 50px;
+}
